@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header,.footer{
+    background-color: rgb(51,51,255);
+    border: 2px solid black;
+    padding:20px;
+    font-size:25px;
+    color:white;
+    text-align:center;
+    text-transform: uppercase;
+    text-shadow:10px;
+    font-family: sans-serif;
+}
+.middle-container{
+    background:yellow; /*this will be overrriden */
+}
+
+.side-content{
+    background-color:yellow;
+    width:30%;
+    height:450px;
+    border:2px solid black;
+    float:left;
+    padding:20px;
+  
+}
+.heading-side-content{
+    color:brown;
+    text-align:center;
+    font-size:35px;
+    text-decoration: underline;
+}
+
+.links-container a{
+    display:block;
+    margin: 20px;
+    padding:20px;
+    text-decoration: none;
+}
+.links-container a:hover{
+    background-color: black;
+    width: fit-content;/*we can fit width according to the content instead of 100% */
+    font-size: 20px;
+    color:whitesmoke;
+    box-shadow:5px 5px 10px rgb(140,0,255) ;
+}
+.main-content{
+    background-color:lightyellow;
+    border: 2px solid black;
+    padding:30px;
+    height:450px;
+    text-align: justify;
+    text-indent: 0ch; /*donno what is this */
+}
+
+.blog-content{
+    margin:10px;
+    font-style: italic;
+    font-weight: 100px;
+}
